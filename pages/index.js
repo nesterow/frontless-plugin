@@ -1,3 +1,3 @@
-module.exports = require('./**/*.riot', {mode: 'list'}).concat(
-    require('../components/**/*.riot', {mode: 'list'})
+module.exports = require(__dirname + '/**/*.riot', {mode: 'list'}).concat(
+    require(__dirname + '/components/**/*.riot', {mode: 'list'})
 )
